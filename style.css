@@ -1,12 +1,11 @@
 body{
-    background: linear-gradient(to right, aquamarine, lightpink);
+    background: linear-gradient(to right, aquamarine, pink);
 }
 h2{ 
     font-family: 'Press Start 2P';
   
 }
 div{ 
-    font-style: italic;
+    font-style:italic;
     
 }
-
