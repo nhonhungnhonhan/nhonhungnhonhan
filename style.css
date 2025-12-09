@@ -1,12 +1,9 @@
 body{
-    background: linear-gradient(to right, rgb(50, 99, 240), rgb(150, 90, 100));
+    background: linear-gradient(to right, aquamarine, lightpink);
 }
 h2{ 
     font-family: 'Press Start 2P';
-    border-top-style: dotted;
-    border-bottom-style: dotted;
-    border-left-style: dotted;
-    border-right-style: dotted;
+  
 }
 div{ 
     font-family:italic;
@@ -15,5 +12,4 @@ div{
 #box1{
     border: 5px solid; 
     border-color: rgb(100, 100, 200)
-    background: rgb(132, 206, 21);
 }
