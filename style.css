@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, aqua, lightpink);
+    background: linear-gradient ( right, aqua, lightpink);
 }
 h2{ 
     font-family: 'Press Start 2P';
@@ -9,9 +9,8 @@ div{
     font-family:italic;
     
 }
-#box1{
-    border: 5px solid; 
-    border-color: rgb(100, 100, 200)
-}
+
+
+
 
 
