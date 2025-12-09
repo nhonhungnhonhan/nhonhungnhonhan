@@ -9,93 +9,39 @@
     </head>
     <body> 
         <!--margin = space AROUND an element-->
-        <div id="box 1"> 
-            <center><h2><i> the first poem ever to be complimented </i></h2></center>
-<p><center><big> giữa đời nẻo khuất <br>
-em là một nhành cúc <br>
-giữa đời mênh mông <br>
-em là miền xa lạ <br>
-giữa giông, giữa gió <br>
-em là một hành khúc <br>
-giữa yên giữa lặng <br>
-em là điệu dân ca <br>
-<br>
-giữa sông giữa suối <br>
-tôi - lục bình hoang dại <br> 
-giữa mây giữa đồi <br>
-tôi vạch gió tìm ai <br>
-giữa mây giữa nắng <br>
-tìm dáng ai nhỏ nhắn <br>
-giữa non, bể, đồng <br>
-khúc ca chết ngày mai</big> <center></p>
-        </div>
+        <!--iframe = embed content from another source into an HTML document -->
+  <h2>Please choose a poem!!!</h2>
+<big> <strong>
+<label>
+  <input type="radio" name="web" value="content1.html"> Neo khuat
+</label><br>
 
-    <div id="box 2"> 
-        <center> <h2> <i> the second one </i></h2></center>
-        <p><center><big> em ở lại đây, ở cùng cây <br>
-ai che, ai chở, những chiều mây <br>
-mây đi trước dắt tay em tha thướt <br>
-cho nửa đời lay lắt về đây<br>
-<br>
-em ngoảnh người đi, khẽ cười khi <br>
-khi cây lặng lẽ, lá lầm lì <br>
-khi gió khẽ lặng, mưa thầm thì<br>
-ai đem trăng với rượu nhâm nhi<br>
-<br>
-em ngã vào đâu, những hào sâu <br>
-tình hiu hắt cũ, bỏ bèn lâu <br>
-ai đào lên mất, tình chôn cất <br>
-đêm khuya ai thắp đỏ đèn thâu<br>
-<br>
-em có thường qua, những vườn hoa <br>
-bản tình ca nở, nở tình ta<br>
-đêm khuya vắng, sáng ngôi sao nhỏ nhắn<br>
-em theo gió nở rộ đường xa<br>
-<br>
-mưa có giận em, có thù em? <br>
-sao mưa vội trắng xoá đường đêm <br>
-mưa ướt nên em không đi trước <br>
-sao mưa làm tiếc nuối dài thêm <br>
-<br>
-em có đợi ai, có tìm ai <br>
-sao em bỏ trắng cả đêm dài <br>
-mây che khuất lối em đi u uất <br>
-hay em đợi gió bấc ngày mai?<br>
-<br>
-tặng cho nhỏ nhắn, đã về đây <br>
-ai che, ai chở, những chiều mây <br>
-tay em ấm, níu tôi đi xa lắm<br>
-đến trời, đến bể, đến rừng cây<br>
-</big></center></p>
-    </div>
-<div id="box 3">
-<center><i><h2> another one </h2></i> </center>
-<center><big><div> loài hoa gì không biết <br> 
-mà được em vắt vai <br> 
-được em dìu tha thiết <br> 
-được em chăm đêm ngày <br> 
-<br> 
-loài hoa gì không biết <br> 
-mà em gieo cả vườn <br> 
-đếm bao nhiêu khôn xiết <br> 
-cho hết những yêu thương <br> 
-<br> 
-loài hoa gì không biết <br> 
-em chăm kể nắng mưa <br> 
-hoa gì em không tiếc <br> 
-những sớm chiều đón đưa<br> 
-<br> 
-loài hoa này, em biết <br> 
-nhưng không kể, em ha <br> 
-ừ, hoa của em hết <br> 
-riêng em, mỗi em mà <br> 
+<label>
+  <input type="radio" name="web" value="content2.html"> Ngoanh nguoi di
+</label><br>
 
-</big></center></div>
-</p>
+<label>
+  <input type="radio" name="web" value="content3.html"> An unknown species of flower
+</label><br><br>
+
+<button onclick="goToPage()">Đọc</button>
+
+<script>
+function goToPage() {
+  const selected = document.querySelector('input[name="web"]:checked');
+  
+  if (selected) {
+    window.location.href = selected.value;
+  } else {
+    alert("Hình như bạn quên chọn kìa!!");
+  }
+}
+</script></strong></big>
+
 </body>
+</html>
 
-
-
+ 
 
 
 
