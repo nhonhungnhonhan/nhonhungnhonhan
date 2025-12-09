@@ -7,6 +7,18 @@ h2{
 }
 div{ 
     font-style:italic;
-    font-size: 200px;
     
+}
+button{ 
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: wheat;
+    color: white; 
+    border: none;
+    cursor: pointer;
+}
+input[type="radio"] {
+  transform: scale(1.5);
+  margin-right: 8px;
 }
