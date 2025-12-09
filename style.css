@@ -7,24 +7,26 @@ h2{
 }
 div{ 
     font-style:italic;
+    font-size: 50
     
 }
 button{ 
-    padding: 12px 24px;
-    font-size: 18px;
-    border-radius: 8px;
+    padding: 12 px, 24 px;
+    font-size: 18 px;
+    border-radius: 8 px;
     background-color: wheat;
     color: white; 
     border: none;
     cursor: pointer;
 }
 input[type="radio"] {
-  transform: scale(1.5);
-  margin-right: 8px;
+  transform: scale (1.5);
+  margin-right: 8 px;
 }
 label {
-  font-size: 20px;
-  margin-bottom: 10px; 
+  font-size: 20 px;
+  margin-bottom: 10 px; 
   display: block;
 
 }
+
